@@ -1,0 +1,15 @@
+.contents{
+    display: none;
+}
+.dictionary_box{
+    display: none;
+}
+.Commentary_contents{
+    display: none;
+}
+em{
+    font-weight:bold;
+    font-size: 1.4em;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,117 @@
+<html>
+<body>
+<head>
+<link href="css/cs1.css" rel="stylesheet"><!--メインcss-->
+<link href="css/cs2.css" rel="stylesheet"><!--ページの入れ替えに必要なcss-->
+<script type="text/javascript" src="js/js_header.js"></script>
+<script type="text/javascript" src="js/js_footer.js"></script>
+<script type="text/javascript" src="js/scroll_keep.js"></script>
+
+<title>基本情報午後試験対策ノート</title>
+</head>
+<script type="text/javascript">header()</script>
+
+<div class="d1">
+  <div style="padding : 20px;"></div>
+  <div class="side_box"></div>
+  <div class="d1-1">
+  <a href="home.html">ホーム</a>
+  &raquo;
+  <a href="osiken_kihon.html">基本情報午後ノート</a>
+  </div>
+  <div class="mapbox2">
+   <a href="#" onclick="disp('page1');">セキュ</a>
+  </div>
+  <div class="mapbox2">
+   <a href="#" onclick="disp('page2');">デタベ</a>
+  </div>
+  <div class="mapbox2">
+   <a href="#" onclick="disp('page3');">3問目</a>
+   </div>
+   <div class="mapbox2">
+    <a href="#" onclick="disp('page4');">アルゴ</a>
+    </div>
+    <div class="mapbox2">
+     <a href="#" onclick="disp('page5');">表計算</a>
+</div>
+  <div class="autoscrollbox">
+  </div>
+
+  <div class="contents" id="page1">
+  <div class="d1-1">
+<h2 id="i1-1">セキュリティ</h2>
+
+    <div class="top_box">
+    <a href="#top"align="right">トップへ戻る</a></div>
+    <br>
+  </div><br>
+   </div>
+
+<div class="contents" id="page2">
+   <div class="d1-2">
+<h2 id="i1-2">データベース</h2>
+
+
+     <div class="top_box">
+     <a href="#top"align="right">トップへ戻る</a></div>
+     <br>
+   </div><br>
+ </div>
+
+<div class="contents" id="page3">
+    <div class="d1-3">
+    <h2 id="i1-3">3問目</h2>
+
+
+      <div class="top_box">
+      <a href="#top"align="right">トップへ戻る</a></div>
+      <br>
+    </div><br>
+  </div>
+
+<div class="contents" id="page4">
+    <div class="d1-4">
+<h2 id="i1-4">アルゴリズム</h2>
+<div class="box1">
+  次のプログラムの説明及びプログラムを読んで、設問1~3に答えよ。
+</div>
+<pre>
+〔プログラムの説明〕
+　関数 BitapMatch は，Bitap法を使って文字列検索を行うプログラムである。
+　Bitap法は，検索対象の文字列(以下，対象文字列という)と検索文字列の照合に，個別の文字ごとに定義されるビット列を用いるという特徴をもつ。
+　なお，本問では，例えば2進数の16ビット論理型の定数 0000000000010101 は，上位の0を省略して"10101"Bと表記する。
+
+    関数 BitapMatch は，対象文字列を Text[] に，検索文字列を Pat[] に格納して呼び出す。配列の要素番号は1から始まり，Text[] のi番目の文字は Text[i] と表記する。Pat[] についても同様にi番目の文字は Pat[i] と表記する。対象文字列と検索文字列は，英大文字で構成され，いずれも最長16文字とする。
+    対象文字列 Text[] が"AACBBAACABABAB"，検索文字列 Pat[] が"ACABAB"の場合の格納例を，図1に示す。</pre>
+      <div class="top_box">
+      <a href="#top"align="right">トップへ戻る</a></div>
+      <br>
+    </div><br>
+  </div>
+
+<div class="contents" id="page5">
+     <div class="d1-5">
+ <h2 id="i1-5">表計算</h2>
+
+
+       <div class="top_box">
+       <a href="#top"align="right">トップへ戻る</a></div>
+       <br>
+     </div><br>
+   </div>
+   <script>
+   'use strict'
+   document.getElementById("page1").style.display = "block";
+   let disp = function(value){
+   	let contents = document.getElementsByClassName("contents");
+   	for(let content of contents){
+   			content.style.display = "none";
+   	}
+   	let dispitem = document.getElementById(value);
+   	dispitem.style.display = "block";
+   }
+   </script>
+</div><!--中央揃えdiv-->
+<script type="text/javascript">footer()</script>
+</body>
+</html>
