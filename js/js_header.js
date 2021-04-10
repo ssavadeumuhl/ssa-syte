@@ -3,6 +3,7 @@ var html = "";
 html += '<link href="https://fonts.googleapis.com/css?family=Charmonman:400,700|Noto+Serif+SC" rel="stylesheet">';
 html += '<header style="border: 0.5px">';
 html += '<h1><a id="logo" href="index.html">Ssavadeumuhl.com</a></h1>';
+html += '<div class="header_Zentriert">';
 html += '<div id="navdiv">';
 html += '<nav>';
 html += '<div class="t2"align="center">';
@@ -45,6 +46,7 @@ html += '<li><a href="contact.html">お問い合わせ</a></li>';
 html += '<li><a href="updatelog.html">更新履歴</a></li>';
 html += '<li><a href="index_smartphone.html">スマホページ</a></li>';
 html += '<li><a href="otherlink.html">別サイトリンク</a></li>';
+html += '</div>';//ヘッダー中央揃えタグ
 html += '</header>';
 html += '</div></nav>';
 document.write(html);

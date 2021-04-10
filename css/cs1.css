@@ -27,6 +27,10 @@ h1 a:hover {
 transition:0.3s;
 color: #4148fe;
 }
+.header_Zentriert{
+  margin-left: auto;
+  margin-right: auto;
+}
 header {
   padding: 0px;
    position: fixed;
@@ -39,6 +43,7 @@ header {
    position: absolute;
 }
 #logo{
+  position: absolute;
   font-family: 'Charmonman', cursive;
 }
 /*ログの下線を消す*/
