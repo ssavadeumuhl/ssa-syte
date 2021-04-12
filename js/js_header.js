@@ -1,7 +1,5 @@
 function header(){
 var html = "";
-html += '<link rel="icon" type="image/x-icon" href="favicons/favicon.ico">';
-html += '<link rel="shortcut icon" href="favicons/icon-16x16.png" type="image/vnd.microsoft.icon">';
 html += '<link href="https://fonts.googleapis.com/css?family=Charmonman:400,700|Noto+Serif+SC" rel="stylesheet">';
 html += '<header style="border: 0.5px">';
 html += '<h1><a id="logo" href="index.html">Ssavadeumuhl.com</a></h1>';
