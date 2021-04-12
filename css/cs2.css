@@ -13,3 +13,8 @@ em{
     display: block;
     text-align: center;
 }
+.mapbox2:hover{
+  transition:0.3s;
+  background-color: #dee;
+  color: #a3a3fc;
+}
